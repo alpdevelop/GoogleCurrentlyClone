@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial,sans-serif;;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-text{
+    margin-right: 10px; 
+}
+.app-icon{
+    margin:0 15px;
+}
+
+#avatar{
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.main-items{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.google-logo{
+    margin-bottom: 30px;
+}
+.search-bar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe1e5; /* buraya renk gelecek */
+    border-radius: 50px;
+    width: 580px;
+    height: 40px;
+    padding: 8px;
+}
+
+.search-bar-items:hover{
+    border-color: #dfe1e5;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 1px 1px 3px 1px rgba(0,0,0,0.10);
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    border:none;
+    font-size: larger;
+    color: #202126;   
+}
+input:focus{
+    outline: none;
+}
+
+.btn-main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+button{
+    width: fit-content;
+    padding: 10px 15px;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    border:none;
+    cursor:pointer;
+}
+button:hover{
+    border:1px solid black;
+}
+
+.search-btn{
+    margin-right: 10px;
+}
+.lucky-btn{
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 18px;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 5px;
+    background-color: #f2f2f2;
+}
+
+.footer-top{
+    padding: 20px;
+    margin-left: -10px;
+    border-bottom:1px solid #dfe1e5;
+    color: #70757a;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: smaller;
+}
+a{
+color: #70757a;
+}
+a:visited{
+    color: #70757a;
+}
+
+
+
+.mid-footer{
+    margin-right: 220px;
+}
+
+#leaf{
+    width: 15px;
+    height: 15px;
+}
+
+.r-list{
+    padding: 10px 0px;
+}
